@@ -4,7 +4,8 @@
   "description": "Mongo DB, Express JS, Node JS and React JS",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/ujagar/P3#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongodb": "^5.5.0",
     "mongoose": "^7.2.0"
